@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "Prix de l'Essence aux États-Unis Cette Semaine",
+    "subtitle": "Classements par état et ville mis à jour chaque semaine",
+    "nationalAvg": "Moyenne Nationale",
+    "weekChange": "vs. semaine dernière",
+    "asOf": "Au",
+    "perGallon": "par gallon"
+  },
+  "nav": {
+    "home": "Accueil",
+    "states": "États",
+    "cities": "Villes",
+    "grades": "Types de Carburant",
+    "history": "Historique"
+  },
+  "table": {
+    "rank": "Rang",
+    "state": "État",
+    "city": "Ville",
+    "regular": "Ordinaire",
+    "midgrade": "Intermédiaire",
+    "premium": "Premium",
+    "diesel": "Diesel",
+    "change": "Variation Hebdo",
+    "stations": "Stations"
+  },
+  "grade": {
+    "regular": "Sans Plomb Ordinaire",
+    "midgrade": "Intermédiaire",
+    "premium": "Premium",
+    "diesel": "Diesel",
+    "e85": "E85 Éthanol"
+  },
+  "map": {
+    "cheapest": "Le Moins Cher",
+    "mostExpensive": "Le Plus Cher",
+    "title": "Prix de l'Essence par État"
+  },
+  "sections": {
+    "cheapestStates": "États les Moins Chers Cette Semaine",
+    "mostExpensiveStates": "États les Plus Chers",
+    "allStates": "Les 50 États — Classés par Prix",
+    "topCities": "Prix de l'Essence dans les Grandes Villes",
+    "trendChart": "Tendance Nationale des Prix (12 Semaines)",
+    "gradeComparison": "Comparaison des Types de Carburant"
+  },
+  "footer": {
+    "visitorsToday": "Visiteurs aujourd'hui",
+    "visitorsTotal": "Visiteurs totaux",
+    "dataSource": "Données : Administration de l'information sur l'énergie des États-Unis",
+    "updateFreq": "Mis à jour chaque lundi",
+    "rights": "Tous droits réservés."
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "q1": "Pourquoi les prix de l'essence varient-ils par état ?",
+    "a1": "Les prix varient en raison des taxes locales, de la proximité des raffineries, des réglementations environnementales et de la concurrence du marché.",
+    "q2": "À quelle fréquence les prix sont-ils mis à jour ?",
+    "a2": "GasPriceScout met à jour les prix chaque lundi avec les données de l'EIA.",
+    "q3": "Quel état a l'essence la moins chère ?",
+    "a3": "Le Mississippi, l'Oklahoma, l'Arkansas et la Louisiane ont généralement les prix les plus bas.",
+    "q4": "Quel état a l'essence la plus chère ?",
+    "a4": "La Californie a systématiquement l'essence la plus chère en raison de ses taxes élevées et de ses exigences spéciales en matière de carburant."
+  },
+  "stateDetail": {
+    "title": "Prix de l'Essence",
+    "weekOf": "Semaine du",
+    "vsNational": "vs. moyenne nationale",
+    "citiesInState": "Grandes Villes en",
+    "viewAllStates": "Voir Tous les États"
+  },
+  "cityDetail": {
+    "title": "Prix de l'Essence",
+    "stateAvg": "Moyenne de l'État",
+    "nearbyCity": "Villes Proches",
+    "backToState": "Retour à"
+  }
+}

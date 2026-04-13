@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "US Gas Prices This Week",
+    "subtitle": "State and city rankings updated weekly from EIA data",
+    "nationalAvg": "National Average",
+    "weekChange": "vs. last week",
+    "asOf": "As of",
+    "perGallon": "per gallon"
+  },
+  "nav": {
+    "home": "Home",
+    "states": "States",
+    "cities": "Cities",
+    "grades": "Fuel Grades",
+    "history": "History"
+  },
+  "table": {
+    "rank": "Rank",
+    "state": "State",
+    "city": "City",
+    "regular": "Regular",
+    "midgrade": "Midgrade",
+    "premium": "Premium",
+    "diesel": "Diesel",
+    "change": "Weekly Change",
+    "stations": "Stations"
+  },
+  "grade": {
+    "regular": "Regular Unleaded",
+    "midgrade": "Midgrade",
+    "premium": "Premium",
+    "diesel": "Diesel",
+    "e85": "E85 Ethanol"
+  },
+  "map": {
+    "cheapest": "Cheapest",
+    "mostExpensive": "Most Expensive",
+    "title": "Gas Prices by State"
+  },
+  "sections": {
+    "cheapestStates": "Cheapest States This Week",
+    "mostExpensiveStates": "Most Expensive States",
+    "allStates": "All 50 States — Ranked by Price",
+    "topCities": "Major City Gas Prices",
+    "trendChart": "National Price Trend (12 Weeks)",
+    "gradeComparison": "Fuel Grade Comparison"
+  },
+  "footer": {
+    "visitorsToday": "Visitors today",
+    "visitorsTotal": "Total visitors",
+    "dataSource": "Data: U.S. Energy Information Administration",
+    "updateFreq": "Updated weekly (Mondays)",
+    "rights": "All rights reserved."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Why do gas prices vary by state?",
+    "a1": "Gas prices vary by state due to differences in state and local taxes, proximity to refineries and pipelines, environmental regulations, and local market competition.",
+    "q2": "How often are prices updated?",
+    "a2": "GasPriceScout updates prices weekly every Monday, using data from the U.S. Energy Information Administration (EIA), which publishes official weekly petroleum prices.",
+    "q3": "Which state has the cheapest gas?",
+    "a3": "Typically, states in the Gulf Coast and Southeast regions like Mississippi, Oklahoma, Arkansas, and Louisiana have the cheapest gas prices due to proximity to refineries and lower taxes.",
+    "q4": "Which state has the most expensive gas?",
+    "a4": "California consistently has the most expensive gasoline in the contiguous US due to high state taxes and unique environmental fuel blending requirements."
+  },
+  "stateDetail": {
+    "title": "Gas Prices",
+    "weekOf": "Week of",
+    "vsNational": "vs. national avg",
+    "citiesInState": "Major Cities in",
+    "viewAllStates": "View All States"
+  },
+  "cityDetail": {
+    "title": "Gas Prices",
+    "stateAvg": "State Average",
+    "nearbyCity": "Nearby Cities",
+    "backToState": "Back to"
+  }
+}

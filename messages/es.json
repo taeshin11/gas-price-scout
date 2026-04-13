@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "Precios de Gasolina en EE.UU. Esta Semana",
+    "subtitle": "Rankings por estado y ciudad actualizados semanalmente",
+    "nationalAvg": "Promedio Nacional",
+    "weekChange": "vs. semana pasada",
+    "asOf": "Al",
+    "perGallon": "por galón"
+  },
+  "nav": {
+    "home": "Inicio",
+    "states": "Estados",
+    "cities": "Ciudades",
+    "grades": "Tipos de Combustible",
+    "history": "Historial"
+  },
+  "table": {
+    "rank": "Posición",
+    "state": "Estado",
+    "city": "Ciudad",
+    "regular": "Regular",
+    "midgrade": "Intermedio",
+    "premium": "Premium",
+    "diesel": "Diésel",
+    "change": "Cambio Semanal",
+    "stations": "Estaciones"
+  },
+  "grade": {
+    "regular": "Gasolina Regular",
+    "midgrade": "Intermedio",
+    "premium": "Premium",
+    "diesel": "Diésel",
+    "e85": "E85 Etanol"
+  },
+  "map": {
+    "cheapest": "Más Barato",
+    "mostExpensive": "Más Caro",
+    "title": "Precios de Gasolina por Estado"
+  },
+  "sections": {
+    "cheapestStates": "Estados Más Baratos Esta Semana",
+    "mostExpensiveStates": "Estados Más Caros",
+    "allStates": "Los 50 Estados — Clasificados por Precio",
+    "topCities": "Precios de Gasolina en Ciudades Principales",
+    "trendChart": "Tendencia Nacional de Precios (12 Semanas)",
+    "gradeComparison": "Comparación de Tipos de Combustible"
+  },
+  "footer": {
+    "visitorsToday": "Visitantes hoy",
+    "visitorsTotal": "Visitantes totales",
+    "dataSource": "Datos: Administración de Información Energética de EE.UU.",
+    "updateFreq": "Actualizado semanalmente (lunes)",
+    "rights": "Todos los derechos reservados."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "q1": "¿Por qué varían los precios de gasolina por estado?",
+    "a1": "Los precios varían por diferencias en impuestos estatales y locales, proximidad a refinerías, regulaciones ambientales y competencia del mercado local.",
+    "q2": "¿Con qué frecuencia se actualizan los precios?",
+    "a2": "GasPriceScout actualiza los precios semanalmente cada lunes, usando datos de la EIA.",
+    "q3": "¿Qué estado tiene la gasolina más barata?",
+    "a3": "Típicamente, estados del Golfo y Sureste como Mississippi, Oklahoma, Arkansas y Louisiana tienen los precios más bajos.",
+    "q4": "¿Qué estado tiene la gasolina más cara?",
+    "a4": "California consistentemente tiene la gasolina más cara por sus altos impuestos y requisitos especiales de combustible."
+  },
+  "stateDetail": {
+    "title": "Precios de Gasolina",
+    "weekOf": "Semana del",
+    "vsNational": "vs. promedio nacional",
+    "citiesInState": "Ciudades Principales en",
+    "viewAllStates": "Ver Todos los Estados"
+  },
+  "cityDetail": {
+    "title": "Precios de Gasolina",
+    "stateAvg": "Promedio Estatal",
+    "nearbyCity": "Ciudades Cercanas",
+    "backToState": "Volver a"
+  }
+}

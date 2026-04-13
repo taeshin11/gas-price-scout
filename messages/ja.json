@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "今週の米国ガソリン価格",
+    "subtitle": "州・都市別ランキングを毎週更新",
+    "nationalAvg": "全国平均",
+    "weekChange": "先週比",
+    "asOf": "基準日",
+    "perGallon": "ガロンあたり"
+  },
+  "nav": {
+    "home": "ホーム",
+    "states": "州別",
+    "cities": "都市別",
+    "grades": "燃料グレード",
+    "history": "価格推移"
+  },
+  "table": {
+    "rank": "順位",
+    "state": "州",
+    "city": "都市",
+    "regular": "レギュラー",
+    "midgrade": "中間",
+    "premium": "プレミアム",
+    "diesel": "ディーゼル",
+    "change": "週間変動",
+    "stations": "給油所数"
+  },
+  "grade": {
+    "regular": "レギュラー無鉛",
+    "midgrade": "ミッドグレード",
+    "premium": "プレミアム",
+    "diesel": "ディーゼル",
+    "e85": "E85エタノール"
+  },
+  "map": {
+    "cheapest": "最安",
+    "mostExpensive": "最高値",
+    "title": "州別ガソリン価格"
+  },
+  "sections": {
+    "cheapestStates": "今週の最安州",
+    "mostExpensiveStates": "最高値の州",
+    "allStates": "全50州 — 価格順ランキング",
+    "topCities": "主要都市のガソリン価格",
+    "trendChart": "全国価格推移（12週間）",
+    "gradeComparison": "燃料グレード比較"
+  },
+  "footer": {
+    "visitorsToday": "本日の訪問者",
+    "visitorsTotal": "累計訪問者",
+    "dataSource": "データ：米国エネルギー情報局（EIA）",
+    "updateFreq": "毎週月曜日更新",
+    "rights": "無断転載禁止。"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "q1": "なぜガソリン価格は州によって異なりますか？",
+    "a1": "州・地方税、精製所への近さ、環境規制、地域市場の競争などが価格差を生み出しています。",
+    "q2": "価格はどのくらいの頻度で更新されますか？",
+    "a2": "毎週月曜日にEIAデータに基づいて更新されます。",
+    "q3": "最もガソリンが安い州はどこですか？",
+    "a3": "ミシシッピ、オクラホマ、アーカンソー、ルイジアナなどの湾岸・南東部の州が最も安い傾向にあります。",
+    "q4": "最もガソリンが高い州はどこですか？",
+    "a4": "カリフォルニア州は高い州税と特殊な燃料規制により、米国本土で最も高価です。"
+  },
+  "stateDetail": {
+    "title": "ガソリン価格",
+    "weekOf": "週",
+    "vsNational": "全国平均比",
+    "citiesInState": "主要都市",
+    "viewAllStates": "全州を見る"
+  },
+  "cityDetail": {
+    "title": "ガソリン価格",
+    "stateAvg": "州平均",
+    "nearbyCity": "近隣都市",
+    "backToState": "戻る"
+  }
+}

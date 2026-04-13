@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "US-Benzinpreise Diese Woche",
+    "subtitle": "Bundesstaaten- und Städterankings wöchentlich aktualisiert",
+    "nationalAvg": "Nationaler Durchschnitt",
+    "weekChange": "vs. letzte Woche",
+    "asOf": "Stand",
+    "perGallon": "pro Gallone"
+  },
+  "nav": {
+    "home": "Startseite",
+    "states": "Bundesstaaten",
+    "cities": "Städte",
+    "grades": "Kraftstoffarten",
+    "history": "Verlauf"
+  },
+  "table": {
+    "rank": "Rang",
+    "state": "Bundesstaat",
+    "city": "Stadt",
+    "regular": "Normal",
+    "midgrade": "Mittelklasse",
+    "premium": "Premium",
+    "diesel": "Diesel",
+    "change": "Wöchentliche Änderung",
+    "stations": "Tankstellen"
+  },
+  "grade": {
+    "regular": "Normalbenzin",
+    "midgrade": "Mittelklasse",
+    "premium": "Premiumbenzin",
+    "diesel": "Diesel",
+    "e85": "E85 Ethanol"
+  },
+  "map": {
+    "cheapest": "Günstigste",
+    "mostExpensive": "Teuerste",
+    "title": "Benzinpreise nach Bundesstaat"
+  },
+  "sections": {
+    "cheapestStates": "Günstigste Bundesstaaten Diese Woche",
+    "mostExpensiveStates": "Teuerste Bundesstaaten",
+    "allStates": "Alle 50 Bundesstaaten — Nach Preis Gerankt",
+    "topCities": "Benzinpreise in Großstädten",
+    "trendChart": "Nationaler Preistrend (12 Wochen)",
+    "gradeComparison": "Kraftstoffarten im Vergleich"
+  },
+  "footer": {
+    "visitorsToday": "Besucher heute",
+    "visitorsTotal": "Besucher gesamt",
+    "dataSource": "Daten: US-Energieinformationsverwaltung",
+    "updateFreq": "Wöchentlich aktualisiert (montags)",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "faq": {
+    "title": "Häufig Gestellte Fragen",
+    "q1": "Warum variieren die Benzinpreise von Staat zu Staat?",
+    "a1": "Preisunterschiede entstehen durch staatliche und lokale Steuern, Nähe zu Raffinerien, Umweltvorschriften und lokalen Wettbewerb.",
+    "q2": "Wie oft werden die Preise aktualisiert?",
+    "a2": "Jeden Montag mit EIA-Daten aktualisiert.",
+    "q3": "Welcher Bundesstaat hat das günstigste Benzin?",
+    "a3": "Mississippi, Oklahoma, Arkansas und Louisiana haben typischerweise die niedrigsten Preise.",
+    "q4": "Welcher Bundesstaat hat das teuerste Benzin?",
+    "a4": "Kalifornien hat aufgrund hoher Steuern und spezieller Kraftstoffanforderungen das teuerste Benzin."
+  },
+  "stateDetail": {
+    "title": "Benzinpreise",
+    "weekOf": "Woche vom",
+    "vsNational": "vs. nationaler Durchschnitt",
+    "citiesInState": "Große Städte in",
+    "viewAllStates": "Alle Bundesstaaten Anzeigen"
+  },
+  "cityDetail": {
+    "title": "Benzinpreise",
+    "stateAvg": "Staatsdurchschnitt",
+    "nearbyCity": "Benachbarte Städte",
+    "backToState": "Zurück zu"
+  }
+}

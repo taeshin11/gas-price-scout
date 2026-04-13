@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "本周美国油价",
+    "subtitle": "按州和城市排名，每周更新",
+    "nationalAvg": "全国平均",
+    "weekChange": "与上周相比",
+    "asOf": "截至",
+    "perGallon": "每加仑"
+  },
+  "nav": {
+    "home": "首页",
+    "states": "按州",
+    "cities": "按城市",
+    "grades": "燃油类型",
+    "history": "历史价格"
+  },
+  "table": {
+    "rank": "排名",
+    "state": "州",
+    "city": "城市",
+    "regular": "普通",
+    "midgrade": "中级",
+    "premium": "高级",
+    "diesel": "柴油",
+    "change": "周变化",
+    "stations": "加油站数"
+  },
+  "grade": {
+    "regular": "普通无铅",
+    "midgrade": "中级",
+    "premium": "高级",
+    "diesel": "柴油",
+    "e85": "E85乙醇"
+  },
+  "map": {
+    "cheapest": "最便宜",
+    "mostExpensive": "最贵",
+    "title": "各州油价"
+  },
+  "sections": {
+    "cheapestStates": "本周最便宜的州",
+    "mostExpensiveStates": "最贵的州",
+    "allStates": "全部50州 — 按价格排名",
+    "topCities": "主要城市油价",
+    "trendChart": "全国价格趋势（12周）",
+    "gradeComparison": "燃油类型比较"
+  },
+  "footer": {
+    "visitorsToday": "今日访客",
+    "visitorsTotal": "总访客",
+    "dataSource": "数据来源：美国能源信息署（EIA）",
+    "updateFreq": "每周一更新",
+    "rights": "版权所有。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": "为什么各州油价不同？",
+    "a1": "州和地方税、距炼油厂的远近、环境法规和当地市场竞争等因素导致价格差异。",
+    "q2": "价格多久更新一次？",
+    "a2": "每周一根据EIA数据更新。",
+    "q3": "哪个州的油价最便宜？",
+    "a3": "密西西比、俄克拉荷马、阿肯色、路易斯安那等墨西哥湾沿岸和东南部州通常最便宜。",
+    "q4": "哪个州的油价最贵？",
+    "a4": "加利福尼亚州因高额税收和特殊燃料要求，一直是美国本土油价最高的州。"
+  },
+  "stateDetail": {
+    "title": "油价",
+    "weekOf": "周",
+    "vsNational": "与全国平均相比",
+    "citiesInState": "主要城市",
+    "viewAllStates": "查看所有州"
+  },
+  "cityDetail": {
+    "title": "油价",
+    "stateAvg": "州平均",
+    "nearbyCity": "附近城市",
+    "backToState": "返回"
+  }
+}
