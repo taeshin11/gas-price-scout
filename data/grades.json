@@ -3,50 +3,55 @@
     "slug": "regular",
     "name": "Regular Unleaded",
     "octane": 87,
-    "nationalAvg": 3.40,
-    "weekChange": -0.02,
+    "nationalAvg": 3.18,
+    "weekChange": -0.08,
     "description": "Regular unleaded gasoline (87 octane) is the most common fuel type used by the majority of passenger vehicles. It is the least expensive grade available at most gas stations.",
     "vehicles": "Most standard passenger cars and trucks",
-    "color": "#10B981"
+    "color": "#10B981",
+    "lastUpdated": "2026-04-22"
   },
   {
     "slug": "midgrade",
     "name": "Midgrade",
     "octane": 89,
-    "nationalAvg": 3.73,
-    "weekChange": -0.01,
+    "nationalAvg": 3.51,
+    "weekChange": -0.08,
     "description": "Midgrade gasoline (89 octane) sits between regular and premium. Some older vehicles or those with slightly higher compression ratios may benefit from this grade.",
     "vehicles": "Some older vehicles and certain performance cars",
-    "color": "#F59E0B"
+    "color": "#F59E0B",
+    "lastUpdated": "2026-04-22"
   },
   {
     "slug": "premium",
     "name": "Premium",
     "octane": 93,
-    "nationalAvg": 4.04,
-    "weekChange": 0.01,
+    "nationalAvg": 3.82,
+    "weekChange": -0.07,
     "description": "Premium gasoline (91-93 octane) is required or recommended for high-performance and luxury vehicles with turbocharged or high-compression engines.",
     "vehicles": "Luxury cars, sports cars, turbocharged engines",
-    "color": "#8B5CF6"
+    "color": "#8B5CF6",
+    "lastUpdated": "2026-04-22"
   },
   {
     "slug": "diesel",
     "name": "Diesel",
     "octane": null,
-    "nationalAvg": 3.67,
-    "weekChange": -0.03,
+    "nationalAvg": 3.42,
+    "weekChange": -0.09,
     "description": "Diesel fuel powers compression-ignition engines found in trucks, SUVs, and commercial vehicles. Diesel engines are typically more fuel-efficient than gasoline engines.",
     "vehicles": "Diesel trucks, SUVs, and commercial vehicles",
-    "color": "#6B7280"
+    "color": "#6B7280",
+    "lastUpdated": "2026-04-22"
   },
   {
     "slug": "e85",
     "name": "E85 Ethanol",
     "octane": 100,
-    "nationalAvg": 2.89,
-    "weekChange": -0.04,
+    "nationalAvg": 2.71,
+    "weekChange": -0.05,
     "description": "E85 is a blend of 85% ethanol and 15% gasoline. It has a higher octane rating than regular gasoline and burns cleaner, but offers lower fuel economy.",
     "vehicles": "Flex-fuel vehicles (FFV) only",
-    "color": "#22C55E"
+    "color": "#22C55E",
+    "lastUpdated": "2026-04-22"
   }
 ]
