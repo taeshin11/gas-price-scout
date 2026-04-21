@@ -12,6 +12,8 @@ import { formatPrice, formatChange, getChangeColor, getChangeArrow, WEEK_DATE, N
 import PriceTable from "@/components/prices/PriceTable";
 import TrendChart from "@/components/prices/TrendChart";
 import StateCard from "@/components/prices/StateCard";
+import { AdsterraNativeBanner } from '@/components/ads/AdsterraNativeBanner';
+import { AdsterraDisplay } from '@/components/ads/AdsterraDisplay';
 
 export const revalidate = 604800;
 
@@ -244,6 +246,8 @@ export default async function HomePage({
             ))}
           </div>
         </div>
+      <AdsterraNativeBanner />
+      <AdsterraDisplay />
 
         {/* FAQ */}
         <div className="mb-12 bg-white rounded-xl border border-amber-200 p-6 shadow-sm">

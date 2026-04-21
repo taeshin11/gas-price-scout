@@ -4,6 +4,9 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import Script from 'next/script';
+import { FeedbackButton } from '@/components/FeedbackButton';
+import { AdSocialBar } from '@/components/ads/AdSocialBar';
 
 export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -18,9 +21,33 @@ export async function generateMetadata({
   return {
     title: {
       template: "%s | GasPriceScout",
-      default: "GasPriceScout — Gas Prices by State and City",
+      default: "Today's Gas Prices by State & City | GasPriceScout",
     },
-    description: "Find the cheapest gas near you — state and city rankings updated weekly.",
+    description:
+      "Find current gas prices near you. Compare regular, premium, and diesel prices by state and city. Updated daily from nationwide fuel price data.",
+    keywords: [
+      "gas prices",
+      "gas prices near me",
+      "cheapest gas",
+      "fuel prices today",
+      "gas price by state",
+      "diesel prices",
+      "gas price map",
+    ],
+    openGraph: {
+      title: "Today's Gas Prices by State & City | GasPriceScout",
+      description:
+        "Find current gas prices near you. Compare regular, premium, and diesel prices by state and city. Updated daily from nationwide fuel price data.",
+      url: `https://gas-price-scout.vercel.app/${locale}`,
+      siteName: "GasPriceScout",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Today's Gas Prices by State & City | GasPriceScout",
+      description:
+        "Find current gas prices near you. Compare regular, premium, and diesel prices by state and city. Updated daily.",
+    },
     alternates: {
       canonical: `https://gas-price-scout.vercel.app/${locale}`,
       languages: {
@@ -33,6 +60,9 @@ export async function generateMetadata({
         "zh": "https://gas-price-scout.vercel.app/zh",
         "pt": "https://gas-price-scout.vercel.app/pt",
       },
+    },
+    other: {
+      "google-adsense-account": "ca-pub-7098271335538021",
     },
   };
 }
@@ -66,6 +96,9 @@ export default async function LocaleLayout({
         }}
       />
       <main className="flex-1">{children}</main>
+      <AdSocialBar />
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7098271335538021" crossOrigin="anonymous" strategy="afterInteractive" />
+      <FeedbackButton siteName="GasPriceScout" />
       <Footer
         locale={locale}
         messages={{

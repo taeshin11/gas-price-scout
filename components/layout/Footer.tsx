@@ -49,6 +49,14 @@ export default function Footer({ locale, messages }: FooterProps) {
             </p>
           </div>
         </div>
+
+        {/* Legal / Info links */}
+        <div className="border-t border-amber-800 mt-8 pt-6 flex flex-wrap gap-x-6 gap-y-2 justify-center text-xs text-amber-500">
+          <Link href={`/${locale}/about`} className="hover:text-amber-300 transition-colors">About</Link>
+          <Link href={`/${locale}/how-to-use`} className="hover:text-amber-300 transition-colors">How to Use / FAQ</Link>
+          <Link href={`/${locale}/privacy`} className="hover:text-amber-300 transition-colors">Privacy Policy</Link>
+          <Link href={`/${locale}/terms`} className="hover:text-amber-300 transition-colors">Terms of Service</Link>
+        </div>
       </div>
     </footer>
   );

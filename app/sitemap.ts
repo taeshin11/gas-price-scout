@@ -97,5 +97,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
+  // Content pages per locale
+  const contentPages = ["about", "how-to-use", "privacy", "terms"];
+  contentPages.forEach((slug) => {
+    LOCALES.forEach((locale) => {
+      entries.push({
+        url: `${BASE_URL}/${locale}/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.6,
+      });
+    });
+  });
+
   return entries;
 }
